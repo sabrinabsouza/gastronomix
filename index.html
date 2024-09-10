@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GastronoMix</title>
+
+    <!--Fonte externa-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+ 
+<!--Estilos-->
+    <link rel= "stylesheet" href= "assets/style.css"/>
+</head>
+<body>
+
+    <div class= "background-image"></div>
+
+    <!-- Biblioteca de icons-->
+    <i id="icon"></i>
+    <script src="script.js"></script> 
+
+    <!--Cabeçalho/nav-->
+    <nav class="fixed">
+        <a href="#quem-somos">Quem somos?</a>
+        <a href="#receitas">Receitas</a>
+        <a href ="#contato">Contato</a>
+        <a href="">Login</a>
+    </nav>
+
+    <!--Banner/Quem somos-->
+    <div id="quem-somos" class="header">
+        <img fetchpriority="high" src="img/gastronomix.png" alt="logo">
+        <h2>Quem somos?</h2>
+        <p>Na GastronoMix, acreditamos que cozinhar é uma jornada de descobertas. Queremos tornar a culinária acessível e divertida para todos, oferecendo receitas práticas e criativas que transformam o simples em especial.
+            <br>Nossa equipe une tradição e modernidade, sempre buscando inspirar você a explorar novos sabores e se aventurar na cozinha. Aqui, cada prato é uma oportunidade de criar momentos inesquecíveis e saborear o melhor da gastronomia.</br></p>
+    </div>
+  
+    <!--Topo receitas-->
+    <div class="toporeceitas">
+        <h2> Receitas</h2>
+    </div>
+
+    <!-- Todas as receitas-->
+    <div id="receitas" class="receitas">
+        <!--Pão de queijo-->
+        <div class="paodequeijo">
+            <a id= "img" href="">
+                <img fetchpriority="auto" src="img/pãodequeijo.jpg" alt= "cesta de pão de queijo">
+            </a>
+            <a id="nome" href=""> Pão de Queijo</a>
+            <p class ="descricao" >O pão de queijo é um clássico Mineiro, conhecido nacionalmente por sua casquinha crocante e interior macio e saboroso. Feito com polvilho e queijo e ovos, ele é uma opção irresistível para o café da manhã ou lanche. Fácil de preparar e cheio de sabor que agrada a todos, é uma verdadeira tradição que conquista a todos.</p>
+            <p class ="relogio"><i class="fa-solid fa-clock"></i>45min</p>
+            <p class ="kcal"><i class="fa-solid fa-weight"></i>80 kcal/und</p>
+        </div>
+
+    <!-- Bolo de Laranja-->
+            <div class="bolo">
+                <a id="img" href="">
+                    <img fetchpriority="auto" src="img/bololaranja.jpeg" alt= "bolo de laranja com cobertura de chocolate">
+                </a>
+                <a id="nome" href=""> Bolo de Laranja</a>
+                <p class ="descricao">O bolo de laranja com cobertura de chocolate é uma combinação deliciosa e sofisticada. Ideal para um café da manhã especial ou uma sobremesa para qualquer ocasião, este bolo oferece uma mistura perfeita de sabores cítricos e chocolatados, resultando em uma experiência saborosa e agradável para todos.</p>
+                <p class ="relogio"><i class="fa-solid fa-clock"></i>1h45m</p>
+                <p class ="kcal"><i class="fa-solid fa-weight"></i>250 kcal/und</p>
+            </div>
+
+    <!-- Coxinha-->
+            <div class="coxinha">
+                <a id= "img" href="">
+                    <img fetchpriority="auto" src="img/coxinha.jpg" alt= "coxinha de frango">
+                </a>
+                <a id="nome" href=""> Coxinha de Frango </a>
+                <p class ="descricao">A coxinha é um dos salgados mais amados do Brasil, famosa por sua casquinha crocante e recheio suculento. Feita com uma massa leve e macia, a coxinha é recheada com frango desfiado e temperado. Ideal para qualquer ocasião, a coxinha é um clássico que conquista a todos com seu sabor irresistível.</p>
+                <p class ="relogio"><i class="fa-solid fa-clock"></i>2h</p>
+                <p class ="kcal"><i class="fa-solid fa-weight"></i>150 kcal/und</p>
+            </div>
+    </div>
+   
+    <!--Rodapé-->
+    <footer id="contato">
+        <h1>Contato</h1>
+        <p>Quer ver sua receita favorita na Gastronomix? Entre em contato conosco e compartilhe suas sugestões ou dúvidas. Adoraríamos ouvir você! </p>
+        <p class="email"> <i class="fa-solid fa-envelope"></i>
+            <a href ="https://mail.google.com/">contato@gastronomix.com.br</p>
+            </p>
+    </footer>
+
+    
+
+</body>
+</html>
